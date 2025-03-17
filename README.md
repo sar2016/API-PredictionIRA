@@ -13,16 +13,11 @@
     <a href="https://github.com/sar2016/API-PredictionIRA"><strong>Explorer la documentation »</strong></a>
     <br />
     <br />
-    <a href="#demo">Voir la Démo</a>
-    ·
-    <a href="#issues">Signaler un Bug</a>
-    ·
-    <a href="#contributing">Contribuer</a>
   </p>
 </p>
 
 <!-- TABLE OF CONTENTS -->
-## 📜 Table des matières
+##  Table des matières
 
 - [À propos du projet](#-à-propos-du-projet)
 - [Démarrage rapide](#-démarrage-rapide)
@@ -35,7 +30,7 @@
 
 ---
 
-## 📌 À propos du projet
+##  À propos du projet
 
 FASTAPI-IRA-PREDICTION-V2 est une API FastAPI conçue pour analyser et prédire les infections respiratoires aiguës en utilisant le modèle LightGBM. 
 
@@ -48,7 +43,7 @@ FASTAPI-IRA-PREDICTION-V2 est une API FastAPI conçue pour analyser et prédire 
 
 ---
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 Pour obtenir une copie locale et exécuter l'application, suivez ces étapes :
 
@@ -69,7 +64,7 @@ uvicorn app2:app --reload
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 
 ```bash
 API-PredictionIRA/
@@ -94,7 +89,7 @@ API-PredictionIRA/
 
 ---
 
-## 🏗️ Utilisation
+##  Utilisation
 
 L'application offre plusieurs fonctionnalités :
 - Interface utilisateur responsive
@@ -104,7 +99,7 @@ L'application offre plusieurs fonctionnalités :
 
 ---
 
-## 🤝 Contribuer
+##  Contribuer
 
 Les contributions sont les bienvenues !
 1. Forkez le projet
@@ -115,7 +110,7 @@ Les contributions sont les bienvenues !
 
 ---
 
-## 📞 Contact
+##  Contact
 
 - **Nom :** Votre Nom
 - **GitHub :** [Votre Profil](https://github.com/votre-utilisateur)
@@ -123,6 +118,6 @@ Les contributions sont les bienvenues !
 
 ---
 
-## 📜 Licence
+##  Licence
 
 Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
