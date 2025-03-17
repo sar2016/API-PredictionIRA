@@ -5,3 +5,5 @@ numpy
 joblib
 scikit-learn
 lightgbm
+gunicorn
+Flask
