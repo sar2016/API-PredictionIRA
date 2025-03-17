@@ -5,6 +5,12 @@ import numpy as np
 
 app = Flask(__name__)
 
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)  # 🔹 Active CORS pour accepter les requêtes de l'extérieur
+
+
 # Charger le fichier CSV
 csv_path = "df_Test_Indust.csv"
 df = pd.read_csv(csv_path)
