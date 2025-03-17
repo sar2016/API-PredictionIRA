@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/sar2016/API-PredictionIRA">
-    <img src="static/images/logo3.png" alt="Logo" width="200" height="70">
+    <img src="static/images/logo3.png" alt="Logo" width="250" height="70">
   </a>
   
   <h3 align="center">FASTAPI-IRA-PREDICTION-V2</h3>
