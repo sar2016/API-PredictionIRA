@@ -36,12 +36,6 @@ FASTAPI-IRA-PREDICTION-V2 est une API FastAPI conçue pour analyser et prédire 
 
 ###  Technologies utilisées
 
-<p align="center">
-  <img src="static/images/fastapi.png" alt="FastAPI" width="100"> 
-  <img src="static/images/lightgbm.png" alt="LightGBM" width="100"> 
-  <img src="static/images/bootstrap.png" alt="Bootstrap" width="100"> 
-  <img src="static/images/python.png" alt="Python" width="100">
-</p>
 
 - **FastAPI** - Framework rapide pour les API avec Python
 - **LightGBM** - Modèle de Machine Learning pour la classification et régression
