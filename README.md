@@ -67,8 +67,8 @@ uvicorn app2:app --reload
 ##  Auteurs
 
 - **Nom:** groupe 2 -M2I
-- **GitHub:** https://github.com/sar2016
+- **GitHub:** lien de notre répertoire
 
-## 📜 Licence
+## Licence
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence...
