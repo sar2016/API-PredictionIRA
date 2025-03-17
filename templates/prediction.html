@@ -96,6 +96,32 @@
 
 </head>
 
+
+
+<script>
+    document.getElementById("predictionForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Empêcher le rechargement de la page
+    
+        var formData = new FormData(this);
+    
+        fetch("https://api-predictionira2.onrender.com/predict", { // 🔹 Remplace par ton URL Render !
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert("❌ Erreur : " + data.error);
+            } else {
+                document.getElementById("result").innerHTML = 
+                    "✅ Nombre prédit de passages IRA : <strong>" + data.prediction + "</strong>";
+            }
+        })
+        .catch(error => console.error("Erreur :", error));
+    });
+    </script>
+    
+
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
