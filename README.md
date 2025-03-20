@@ -37,7 +37,7 @@ FASTAPI-IRA-PREDICTION-V2 est une API FastAPI conçue pour analyser et prédire 
 ###  Technologies utilisées
 
 
-- **FastAPI** - Framework rapide pour les API avec Python
+- **Flask** - Framework rapide pour les API avec Python
 - **LightGBM** - Modèle de Machine Learning pour la classification et régression
 - **Bootstrap** - Framework CSS pour un design moderne et réactif
 
